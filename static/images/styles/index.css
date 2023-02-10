@@ -1,0 +1,33 @@
+.title-container{
+    height: 450px;
+    position: relative;
+    width: 100%;
+}
+
+.title-text{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.background-image{
+    opacity: 0.5;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    position: absolute;
+}
+
+.name p,
+.name i {
+    margin: 0;
+}
+
+@media only screen and (min-width:429px) and (max-width:1024px){
+    .top-image{
+        margin: 0;
+    }
+}
